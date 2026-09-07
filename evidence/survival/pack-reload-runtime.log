@@ -1,0 +1,10 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+Metal 4.0 - Forward+ - Using Device #0: Apple - Apple M4 Pro (Apple9)
+
+VERIFY PASS Save loads in an independent fresh process
+VERIFY PASS Outpost and beacon persist
+VERIFY PASS Resources and loot remain depleted
+VERIFY PASS Placed camp persists
+VERIFY PASS Warden remains defeated
+VERIFY PASS Crafted upgrade and discovery persist
+VERIFY PASS Save restores the outpost spawn

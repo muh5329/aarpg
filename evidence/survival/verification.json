@@ -1,0 +1,15 @@
+{
+  "bow_hits": 0,
+  "checks": [
+    {
+      "check": "Expanded frontier loads",
+      "passed": false
+    }
+  ],
+  "deaths": 0,
+  "kills": 0,
+  "passed": false,
+  "quest": 0,
+  "sword_hits": 0,
+  "travel": 0.0
+}

@@ -1,0 +1,39 @@
+{
+  "bow_hits": 0,
+  "checks": [
+    {
+      "check": "Save loads in an independent fresh process",
+      "passed": true
+    },
+    {
+      "check": "Outpost and beacon persist",
+      "passed": true
+    },
+    {
+      "check": "Resources and loot remain depleted",
+      "passed": true
+    },
+    {
+      "check": "Placed camp persists",
+      "passed": true
+    },
+    {
+      "check": "Warden remains defeated",
+      "passed": true
+    },
+    {
+      "check": "Crafted upgrade and discovery persist",
+      "passed": true
+    },
+    {
+      "check": "Save restores the outpost spawn",
+      "passed": true
+    }
+  ],
+  "deaths": 0,
+  "kills": 6.0,
+  "passed": true,
+  "quest": 0.0,
+  "sword_hits": 0,
+  "travel": 0.0
+}

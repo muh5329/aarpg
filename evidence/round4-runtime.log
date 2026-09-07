@@ -1,0 +1,36 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+OpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M4 Pro
+
+VERIFY PASS Fresh launch starts with full health and no quest
+VERIFY PASS Western house entered through physical doorway
+VERIFY PASS Roof and front walls disappear indoors
+VERIFY PASS NPC dialogue opens through E action
+VERIFY PASS Quest accepted through dialogue
+VERIFY PASS Western roof restores after leaving
+VERIFY PASS Second house is accessible and cuts away
+VERIFY PASS Second NPC has working dialogue
+VERIFY PASS Second roof restores on exit
+VERIFY PASS Town gate connects seamlessly to overworld
+VERIFY PASS Pause blocks movement
+VERIFY PASS Sword defeats a live enemy
+SHOT (0.091417, 0.850845, -14.7494) direction (0.914117, 0.0, 0.405451) enemies (0.782186, 0.000845, -14.44301) / (-0.929484, 0.000845, -22.40922)
+ARROW HIT @CharacterBody3D@1700:<CharacterBody3D#116953979304> at (0.594181, 0.850845, -14.5264)
+SHOT (0.091417, 0.850845, -14.7494) direction (0.914117, 0.0, 0.40545) enemies (0.820274, 0.000845, -14.42612) / (-0.755716, 0.000845, -20.98487)
+ARROW HIT @CharacterBody3D@1700:<CharacterBody3D#116953979304> at (0.594181, 0.850845, -14.5264)
+SHOT (0.091417, 0.850845, -14.7494) direction (0.914117, 0.0, 0.40545) enemies (0.858363, 0.000845, -14.40922) / (-0.581951, 0.000845, -19.56051)
+ARROW HIT @CharacterBody3D@1700:<CharacterBody3D#116953979304> at (0.594181, 0.850845, -14.5264)
+SHOT (-0.012104, 0.850845, -14.88921) direction (-0.121089, 0.0, -0.992642) enemies (0.896451, 0.000845, -14.39233) / (-0.408187, 0.000845, -18.13615)
+ARROW HIT @CharacterBody3D@1727:<CharacterBody3D#118094830060> at (-0.345099, 0.850845, -17.61897)
+SHOT (-0.012104, 0.850845, -14.88921) direction (-0.121088, 0.0, -0.992642) enemies (0.896451, 0.000845, -14.39233) / (-0.239471, 0.000845, -16.7531)
+ARROW HIT @CharacterBody3D@1727:<CharacterBody3D#118094830060> at (-0.189699, 0.850845, -16.34508)
+SHOT (-0.012104, 0.850845, -14.88921) direction (-0.121088, 0.0, -0.992642) enemies (0.896451, 0.000845, -14.39233) / (-0.185184, 0.000845, -16.30807)
+ARROW HIT @CharacterBody3D@1727:<CharacterBody3D#118094830060> at (-0.1675, 0.850845, -16.1631)
+VERIFY PASS Bow projectiles damage and defeat enemies
+VERIFY PASS Enemy loot can be collected
+VERIFY PASS Quest object is collected after clearing guardians
+VERIFY PASS Quest completes and grants reward
+VERIFY PASS Repeated entry and exit restores all cutaway parts
+VERIFY PASS No stuck attack state
+VERIFY PASS Entire quest completed without death
+VERIFY PASS Physical route traversed over 120 meters
+VERIFICATION FINISHED: PASS

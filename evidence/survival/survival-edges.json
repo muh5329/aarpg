@@ -1,0 +1,91 @@
+{
+  "bow_hits": 0,
+  "checks": [
+    {
+      "check": "Empty quiver prevents projectile creation",
+      "passed": true
+    },
+    {
+      "check": "Exhaustion prevents attacks",
+      "passed": true
+    },
+    {
+      "check": "Exhaustion prevents dodge",
+      "passed": true
+    },
+    {
+      "check": "One heal key uses one bandage inside inventory",
+      "passed": true
+    },
+    {
+      "check": "Food and water can be used from the pack",
+      "passed": true
+    },
+    {
+      "check": "Cooking requires a nearby fire",
+      "passed": true
+    },
+    {
+      "check": "Bandage recipe consumes exactly three fiber",
+      "passed": true
+    },
+    {
+      "check": "Build key exits crafting and opens preview",
+      "passed": true
+    },
+    {
+      "check": "Interior placement is rejected",
+      "passed": true
+    },
+    {
+      "check": "Invalid placement preserves the kit",
+      "passed": true
+    },
+    {
+      "check": "Escape cancels construction",
+      "passed": true
+    },
+    {
+      "check": "Solid wall blocks melee sight line",
+      "passed": true
+    },
+    {
+      "check": "Open doorway permits sight line",
+      "passed": true
+    },
+    {
+      "check": "Navigation routes around walls to the doorway",
+      "passed": true
+    },
+    {
+      "check": "A live enemy physically pursues through the doorway",
+      "passed": true
+    },
+    {
+      "check": "Bedroll recipe uses fiber and hide",
+      "passed": true
+    },
+    {
+      "check": "Bedroll placement consumes its item",
+      "passed": true
+    },
+    {
+      "check": "Bedroll establishes a new respawn point",
+      "passed": true
+    },
+    {
+      "check": "Night changes world lighting and detection mode",
+      "passed": true
+    },
+    {
+      "check": "Incomplete save is rejected without crashing",
+      "passed": true
+    }
+  ],
+  "deaths": 0,
+  "kills": 0,
+  "passed": true,
+  "quest": 0,
+  "sword_hits": 0,
+  "travel": 0.260001763701439
+}

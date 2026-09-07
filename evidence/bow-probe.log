@@ -1,0 +1,36 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+OpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M4 Pro
+
+SHOT (-0.65, 0.85026, -14.0) direction (-1.0, 0.0, 0.0) enemies (2.0, 0.0, -19.0) / (-1.0, 0.0, -23.0)
+ARROW HIT @CharacterBody3D@1673:<CharacterBody3D#115813128548> at (-1.751489, 0.85026, -14.0)
+PROBE arrows 0 hits 1
+SHOT (-0.65, 0.85026, -14.0) direction (-1.0, 0.0, 0.0) enemies (1.467053, 0.000845, -17.66761) / (-1.0, 0.0, -23.0)
+ARROW HIT @CharacterBody3D@1673:<CharacterBody3D#115813128548> at (-1.2, 0.85026, -14.0)
+PROBE arrows 0 hits 2
+SHOT (-0.65, 0.85026, -14.0) direction (-1.0, 0.0, 0.0) enemies (0.921102, 0.000845, -16.30272) / (-1.0, 0.0, -23.0)
+ARROW HIT @CharacterBody3D@1673:<CharacterBody3D#115813128548> at (-1.016667, 0.85026, -14.0)
+PROBE arrows 0 hits 3
+SHOT (0.241408, 0.85026, -14.60351) direction (0.371396, 0.0, -0.928474) enemies (0.570132, 0.000845, -15.4253) / (-1.0, 0.0, -23.0)
+ARROW HIT @CharacterBody3D@1700:<CharacterBody3D#116953979304> at (0.513765, 0.85026, -15.28439)
+PROBE arrows 0 hits 4
+SHOT (0.241407, 0.85026, -14.60351) direction (0.371396, 0.0, -0.928474) enemies (0.481616, 0.000845, -15.20402) / (-1.0, 0.0, -23.0)
+ARROW HIT @CharacterBody3D@1700:<CharacterBody3D#116953979304> at (0.377586, 0.85026, -14.94395)
+PROBE arrows 0 hits 5
+SHOT (0.241407, 0.85026, -14.60351) direction (0.371396, 0.0, -0.928474) enemies (0.471093, 0.000845, -15.17771) / (-1.0, 0.0, -23.0)
+ARROW HIT @CharacterBody3D@1700:<CharacterBody3D#116953979304> at (0.377586, 0.85026, -14.94395)
+PROBE arrows 0 hits 6
+SHOT (-0.07178, 0.85026, -14.64602) direction (-0.110432, 0.0, -0.993884) enemies (0.486567, 0.000845, -15.2164) / (-1.0, 0.0, -23.0)
+ARROW HIT @CharacterBody3D@1727:<CharacterBody3D#118094830060> at (-0.983607, 0.85026, -22.85249)
+PROBE arrows 0 hits 7
+SHOT (-0.07178, 0.85026, -14.64602) direction (-0.110432, 0.0, -0.993884) enemies (0.486567, 0.000845, -15.2164) / (-1.004601, 0.0, -23.04141)
+ARROW HIT @CharacterBody3D@1727:<CharacterBody3D#118094830060> at (-0.982841, 0.85026, -22.84559)
+PROBE arrows 0 hits 8
+SHOT (-0.07178, 0.85026, -14.64602) direction (-0.110432, 0.0, -0.993884) enemies (0.486567, 0.000845, -15.2164) / (-1.009203, 0.0, -23.08282)
+ARROW HIT @CharacterBody3D@1727:<CharacterBody3D#118094830060> at (-0.982841, 0.85026, -22.84559)
+PROBE arrows 0 hits 9
+SHOT (-0.07178, 0.85026, -14.64602) direction (-0.110432, 0.0, -0.993884) enemies (0.486567, 0.000845, -15.2164) / (-1.013804, 0.0, -23.12424)
+PROBE arrows 1 hits 9
+SHOT (-0.07178, 0.85026, -14.64602) direction (-0.110432, 0.0, -0.993884) enemies (0.486567, 0.000845, -15.2164) / (-1.013804, 0.0, -23.12424)
+PROBE arrows 2 hits 9
+SHOT (-0.07178, 0.85026, -14.64602) direction (-0.110432, 0.0, -0.993884) enemies (0.486567, 0.000845, -15.2164) / (-1.013804, 0.0, -23.12424)
+PROBE arrows 2 hits 9

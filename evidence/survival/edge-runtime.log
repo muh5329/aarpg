@@ -1,0 +1,24 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+Metal 4.0 - Forward+ - Using Device #0: Apple - Apple M4 Pro (Apple9)
+
+VERIFY PASS Empty quiver prevents projectile creation
+VERIFY PASS Exhaustion prevents attacks
+VERIFY PASS Exhaustion prevents dodge
+VERIFY PASS One heal key uses one bandage inside inventory
+VERIFY PASS Food and water can be used from the pack
+VERIFY PASS Cooking requires a nearby fire
+VERIFY PASS Bandage recipe consumes exactly three fiber
+VERIFY PASS Build key exits crafting and opens preview
+VERIFY PASS Interior placement is rejected
+VERIFY PASS Invalid placement preserves the kit
+VERIFY PASS Escape cancels construction
+VERIFY PASS Solid wall blocks melee sight line
+VERIFY PASS Open doorway permits sight line
+VERIFY PASS Navigation routes around walls to the doorway
+VERIFY PASS A live enemy physically pursues through the doorway
+VERIFY PASS Bedroll recipe uses fiber and hide
+VERIFY PASS Bedroll placement consumes its item
+VERIFY PASS Bedroll establishes a new respawn point
+VERIFY PASS Night changes world lighting and detection mode
+VERIFY PASS Incomplete save is rejected without crashing
+EDGE VERIFICATION FINISHED: PASS

@@ -1,0 +1,32 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+Metal 4.0 - Forward+ - Using Device #0: Apple - Apple M4 Pro (Apple9)
+
+VERIFY PASS Fresh launch starts with full health and no quest
+VERIFY PASS D moves screen-right with diagonal camera
+VERIFY PASS Space initiates dodge and invulnerability
+VERIFY PASS Q equips bow
+VERIFY PASS Mouse aim fires equipped bow
+VERIFY PASS Q returns to sword
+VERIFY PASS Dialogue blocks movement and combat input
+VERIFY PASS Escape closes dialogue without accepting a quest
+VERIFY PASS Hidden near wall retains physical collision
+VERIFY PASS Western house entered through physical doorway
+VERIFY PASS Roof and front walls disappear indoors
+VERIFY PASS NPC dialogue opens through E action
+VERIFY PASS Quest accepted through dialogue
+VERIFY PASS Western roof restores after leaving
+VERIFY PASS Second house is accessible and cuts away
+VERIFY PASS Second NPC has working dialogue
+VERIFY PASS Second roof restores on exit
+VERIFY PASS Town gate connects seamlessly to overworld
+VERIFY PASS Pause blocks movement
+VERIFY PASS Sword defeats a live enemy
+VERIFY PASS Bow projectiles damage and defeat enemies
+VERIFY PASS Enemy loot can be collected
+VERIFY PASS Quest object is collected after clearing guardians
+VERIFY PASS Quest completes and grants reward
+VERIFY PASS Repeated entry and exit restores all cutaway parts
+VERIFY PASS No stuck attack state
+VERIFY PASS Entire quest completed without death
+VERIFY PASS Physical route traversed over 120 meters
+VERIFICATION FINISHED: PASS

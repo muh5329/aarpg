@@ -1,0 +1,14 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+Metal 4.0 - Forward+ - Using Device #0: Apple - Apple M4 Pro (Apple9)
+
+VERIFY PASS Full valley loads: 7 buildings, 16 enemies, 50 interactive sites
+VERIFY PASS Map opens
+VERIFY PASS Insufficient crafting costs do not consume resources
+VERIFY PASS Starting cache supplies actual inventory
+VERIFY PASS Depleted container cannot be looted twice
+VERIFY PASS Harvesting yields and depletes resources
+VERIFY PASS Campfire crafting consumes the exact recipe
+VERIFY PASS Placement preview opens on clear ground
+VERIFY PASS A campfire is placed in the real world
+VERIFY FAIL Route accessible: (-40.0, 0.0, 55.0)
+SURVIVAL ROUTE BLOCKED

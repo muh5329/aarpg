@@ -1,0 +1,79 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Started Project initialization (5 steps)[39m[0m
+[   0% ] [90m[1mfirst_scan_filesystem[22m | Scanning file structure...[39m[0m
+[  16% ] [90m[1mfirst_scan_filesystem[22m | Loading global class names...[39m[0m
+[  33% ] [90m[1mfirst_scan_filesystem[22m | Verifying GDExtensions...[39m[0m
+[  50% ] [90m[1mfirst_scan_filesystem[22m | Creating autoload scripts...[39m[0m
+[  66% ] [90m[1mfirst_scan_filesystem[22m | Initializing plugins...[39m[0m
+[  83% ] [90m[1mfirst_scan_filesystem[22m | Starting file scan...[39m[0m
+[92m[ DONE ][39m [1mfirst_scan_filesystem[22m
+[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | Started Registering global classes... (2 steps)[39m[0m
+[   0% ] [90m[1mupdate_scripts_classes[22m | Art[39m[0m
+[  33% ] [90m[1mupdate_scripts_classes[22m | [39m[0m
+[92m[ DONE ][39m [1mupdate_scripts_classes[22m
+[0m
+[   0% ] [90m[1msavepack[22m | Started Packing (102 steps)[39m[0m
+[   1% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/bark_color.jpg-17846065f22f7439f1366a089903d080.ctex[39m[0m
+[   1% ] [90m[1msavepack[22m | Storing File: res://assets/textures/bark_color.jpg.import[39m[0m
+[   4% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/bark_normal.jpg-0e454be048d9132fa74b6aeb510d4bce.ctex[39m[0m
+[   4% ] [90m[1msavepack[22m | Storing File: res://assets/textures/bark_normal.jpg.import[39m[0m
+[   7% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/bark_rough.jpg-2c712a34899939e2602a44ec4f828ee4.ctex[39m[0m
+[   7% ] [90m[1msavepack[22m | Storing File: res://assets/textures/bark_rough.jpg.import[39m[0m
+[  11% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/earth_color.jpg-6a18849a7712df30101388a875b3301f.ctex[39m[0m
+[  11% ] [90m[1msavepack[22m | Storing File: res://assets/textures/earth_color.jpg.import[39m[0m
+[  14% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/earth_normal.jpg-d29835495f7a3a47b2fe855ecd5560ba.ctex[39m[0m
+[  14% ] [90m[1msavepack[22m | Storing File: res://assets/textures/earth_normal.jpg.import[39m[0m
+[  17% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/earth_rough.jpg-9039dcb905be5cb5ec1f496dcd002aea.ctex[39m[0m
+[  17% ] [90m[1msavepack[22m | Storing File: res://assets/textures/earth_rough.jpg.import[39m[0m
+[  21% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/masonry_color.jpg-1b9a45bde620e84ed55ac1216ddd28b7.ctex[39m[0m
+[  21% ] [90m[1msavepack[22m | Storing File: res://assets/textures/masonry_color.jpg.import[39m[0m
+[  24% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/masonry_normal.jpg-d15fae2f42ca497a80d570a9ee953850.ctex[39m[0m
+[  24% ] [90m[1msavepack[22m | Storing File: res://assets/textures/masonry_normal.jpg.import[39m[0m
+[  27% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/masonry_rough.jpg-b028aaad6928f5e6744473fa8ae2be3c.ctex[39m[0m
+[  27% ] [90m[1msavepack[22m | Storing File: res://assets/textures/masonry_rough.jpg.import[39m[0m
+[  31% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/road_color.jpg-6afc8b88950a30cd60110087af8ed0cf.ctex[39m[0m
+[  31% ] [90m[1msavepack[22m | Storing File: res://assets/textures/road_color.jpg.import[39m[0m
+[  33% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/road_normal.jpg-132832704fbf89d7d9c24759e695d3a2.ctex[39m[0m
+[  33% ] [90m[1msavepack[22m | Storing File: res://assets/textures/road_normal.jpg.import[39m[0m
+[  36% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/road_rough.jpg-cec9b1001570064da71804763451816b.ctex[39m[0m
+[  36% ] [90m[1msavepack[22m | Storing File: res://assets/textures/road_rough.jpg.import[39m[0m
+[  40% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/roof_color.jpg-e3ccf513ca5ed111562142cc95af8877.ctex[39m[0m
+[  40% ] [90m[1msavepack[22m | Storing File: res://assets/textures/roof_color.jpg.import[39m[0m
+[  43% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/roof_normal.jpg-daf1525b0ce88cb5404476f3fb2e6d99.ctex[39m[0m
+[  43% ] [90m[1msavepack[22m | Storing File: res://assets/textures/roof_normal.jpg.import[39m[0m
+[  46% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/roof_rough.jpg-7efaabe77d7b2f1a9116626622ecef4c.ctex[39m[0m
+[  46% ] [90m[1msavepack[22m | Storing File: res://assets/textures/roof_rough.jpg.import[39m[0m
+[  50% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/timber_color.jpg-3725d7a4aec6d603876ea9eca295cf2a.ctex[39m[0m
+[  50% ] [90m[1msavepack[22m | Storing File: res://assets/textures/timber_color.jpg.import[39m[0m
+[  53% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/timber_normal.jpg-e8670506f7ae77cd41f20300fc970ffa.ctex[39m[0m
+[  53% ] [90m[1msavepack[22m | Storing File: res://assets/textures/timber_normal.jpg.import[39m[0m
+[  56% ] [90m[1msavepack[22m | Storing File: res://.godot/imported/timber_rough.jpg-0901d7c416fb54d63aadfb92a702f8b9.ctex[39m[0m
+[  56% ] [90m[1msavepack[22m | Storing File: res://assets/textures/timber_rough.jpg.import[39m[0m
+[  60% ] [90m[1msavepack[22m | Storing File: res://scripts/art.gdc[39m[0m
+[  63% ] [90m[1msavepack[22m | Storing File: res://scripts/main.gdc[39m[0m
+[  66% ] [90m[1msavepack[22m | Storing File: res://scripts/player.gdc[39m[0m
+[  69% ] [90m[1msavepack[22m | Storing File: res://scripts/house.gdc[39m[0m
+[  72% ] [90m[1msavepack[22m | Storing File: res://shaders/stone.gdshader[39m[0m
+[  75% ] [90m[1msavepack[22m | Storing File: res://scripts/verifier.gdc[39m[0m
+[  79% ] [90m[1msavepack[22m | Storing File: res://scripts/hud.gdc[39m[0m
+[  82% ] [90m[1msavepack[22m | Storing File: res://shaders/road.gdshader[39m[0m
+[  85% ] [90m[1msavepack[22m | Storing File: res://scripts/world.gdc[39m[0m
+[  89% ] [90m[1msavepack[22m | Storing File: res://scripts/enemy.gdc[39m[0m
+[  92% ] [90m[1msavepack[22m | Storing File: res://shaders/ground.gdshader[39m[0m
+[  95% ] [90m[1msavepack[22m | Storing File: res://.godot/exported/133200997/export-3ad5c15c4f3250da0cc7c1af1770d85f-main.scn[39m[0m
+[  95% ] [90m[1msavepack[22m | Storing File: res://scripts/art.gd.remap[39m[0m
+[  95% ] [90m[1msavepack[22m | Storing File: res://scripts/main.gd.remap[39m[0m
+[  95% ] [90m[1msavepack[22m | Storing File: res://scripts/player.gd.remap[39m[0m
+[  95% ] [90m[1msavepack[22m | Storing File: res://scripts/house.gd.remap[39m[0m
+[  95% ] [90m[1msavepack[22m | Storing File: res://scripts/verifier.gd.remap[39m[0m
+[  95% ] [90m[1msavepack[22m | Storing File: res://scripts/hud.gd.remap[39m[0m
+[  95% ] [90m[1msavepack[22m | Storing File: res://scripts/world.gd.remap[39m[0m
+[  95% ] [90m[1msavepack[22m | Storing File: res://scripts/enemy.gd.remap[39m[0m
+[  95% ] [90m[1msavepack[22m | Storing File: res://scenes/main.tscn.remap[39m[0m
+[  95% ] [90m[1msavepack[22m | Storing File: res://.godot/global_script_class_cache.cfg[39m[0m
+[  95% ] [90m[1msavepack[22m | Storing File: res://.godot/uid_cache.bin[39m[0m
+[  95% ] [90m[1msavepack[22m | Storing File: res://project.binary[39m[0m
+[92m[ DONE ][39m [1msavepack[22m
+[0m

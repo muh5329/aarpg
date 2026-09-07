@@ -1,0 +1,123 @@
+{
+  "bow_hits": 6,
+  "checks": [
+    {
+      "check": "Fresh launch starts with full health and no quest",
+      "passed": true
+    },
+    {
+      "check": "D moves screen-right with diagonal camera",
+      "passed": true
+    },
+    {
+      "check": "Space initiates dodge and invulnerability",
+      "passed": true
+    },
+    {
+      "check": "Q equips bow",
+      "passed": true
+    },
+    {
+      "check": "Mouse aim fires equipped bow",
+      "passed": true
+    },
+    {
+      "check": "Q returns to sword",
+      "passed": true
+    },
+    {
+      "check": "Dialogue blocks movement and combat input",
+      "passed": true
+    },
+    {
+      "check": "Escape closes dialogue without accepting a quest",
+      "passed": true
+    },
+    {
+      "check": "Hidden near wall retains physical collision",
+      "passed": true
+    },
+    {
+      "check": "Western house entered through physical doorway",
+      "passed": true
+    },
+    {
+      "check": "Roof and front walls disappear indoors",
+      "passed": true
+    },
+    {
+      "check": "NPC dialogue opens through E action",
+      "passed": true
+    },
+    {
+      "check": "Quest accepted through dialogue",
+      "passed": true
+    },
+    {
+      "check": "Western roof restores after leaving",
+      "passed": true
+    },
+    {
+      "check": "Second house is accessible and cuts away",
+      "passed": true
+    },
+    {
+      "check": "Second NPC has working dialogue",
+      "passed": true
+    },
+    {
+      "check": "Second roof restores on exit",
+      "passed": true
+    },
+    {
+      "check": "Town gate connects seamlessly to overworld",
+      "passed": true
+    },
+    {
+      "check": "Pause blocks movement",
+      "passed": true
+    },
+    {
+      "check": "Sword defeats a live enemy",
+      "passed": true
+    },
+    {
+      "check": "Bow projectiles damage and defeat enemies",
+      "passed": true
+    },
+    {
+      "check": "Enemy loot can be collected",
+      "passed": true
+    },
+    {
+      "check": "Quest object is collected after clearing guardians",
+      "passed": true
+    },
+    {
+      "check": "Quest completes and grants reward",
+      "passed": true
+    },
+    {
+      "check": "Repeated entry and exit restores all cutaway parts",
+      "passed": true
+    },
+    {
+      "check": "No stuck attack state",
+      "passed": true
+    },
+    {
+      "check": "Entire quest completed without death",
+      "passed": true
+    },
+    {
+      "check": "Physical route traversed over 120 meters",
+      "passed": true
+    }
+  ],
+  "deaths": 0,
+  "kills": 3,
+  "passed": true,
+  "quest": 3,
+  "sword_hits": 3,
+  "travel": 204.095343827037
+}

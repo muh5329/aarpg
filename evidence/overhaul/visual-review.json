@@ -1,0 +1,27 @@
+{
+  "bow_hits": 0,
+  "checks": [
+    {
+      "check": "Final western cutaway is accessible",
+      "passed": true
+    },
+    {
+      "check": "Final roof and gables restore",
+      "passed": true
+    },
+    {
+      "check": "Final eastern cutaway is accessible",
+      "passed": true
+    },
+    {
+      "check": "Final eastern roof restores",
+      "passed": true
+    }
+  ],
+  "deaths": 0,
+  "kills": 0,
+  "passed": true,
+  "quest": 0,
+  "sword_hits": 0,
+  "travel": 52.9533293098211
+}

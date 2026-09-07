@@ -1,0 +1,59 @@
+{
+  "bow_hits": 0,
+  "checks": [
+    {
+      "check": "Completed save loads for independent exploration",
+      "passed": true
+    },
+    {
+      "check": "All seven building footprints are clear of tree trunks",
+      "passed": true
+    },
+    {
+      "check": "timber_cache is reachable and lootable",
+      "passed": true
+    },
+    {
+      "check": "timber_cache opens its interior",
+      "passed": true
+    },
+    {
+      "check": "timber_cache restores its roof after exit",
+      "passed": true
+    },
+    {
+      "check": "store_cache is reachable and lootable",
+      "passed": true
+    },
+    {
+      "check": "store_cache opens its interior",
+      "passed": true
+    },
+    {
+      "check": "store_cache restores its roof after exit",
+      "passed": true
+    },
+    {
+      "check": "tannery_cache is reachable and lootable",
+      "passed": true
+    },
+    {
+      "check": "tannery_cache opens its interior",
+      "passed": true
+    },
+    {
+      "check": "tannery_cache restores its roof after exit",
+      "passed": true
+    },
+    {
+      "check": "Remote buildings explored without death",
+      "passed": true
+    }
+  ],
+  "deaths": 0,
+  "kills": 6.0,
+  "passed": true,
+  "quest": 0.0,
+  "sword_hits": 0,
+  "travel": 269.35729636997
+}

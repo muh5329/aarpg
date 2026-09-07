@@ -1,0 +1,16 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+Metal 4.0 - Forward+ - Using Device #0: Apple - Apple M4 Pro (Apple9)
+
+WARNING: A navigation mesh that uses a `cell_height` of 0.10000000149012 was assigned to a navigation map set to a larger `cell_height` of 0.25.
+This mismatch in cell height can cause rasterization errors with navigation mesh edges on the navigation map.
+The cell height for navigation maps can be changed by using the NavigationServer map_set_cell_height() function.
+The cell height for default navigation maps can also be changed in the project settings.
+This warning can be toggled under 'navigation/3d/warnings/navmesh_cell_size_mismatch' in the project settings.
+     at: set_navigation_mesh (modules/navigation_3d/nav_region_3d.cpp:113)
+VERIFY PASS Full valley loads: 7 buildings, 16 enemies, 50 interactive sites
+VERIFY PASS Map opens
+VERIFY PASS Insufficient crafting costs do not consume resources
+VERIFY PASS Starting cache supplies actual inventory
+VERIFY PASS Depleted container cannot be looted twice
+VERIFY FAIL Route accessible: (-17.0, 0.0, 10.0)
+SURVIVAL ROUTE BLOCKED

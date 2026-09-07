@@ -1,0 +1,111 @@
+{
+  "bow_hits": 22,
+  "checks": [
+    {
+      "check": "Full valley loads: 7 buildings, 16 enemies, 50 interactive sites",
+      "passed": true
+    },
+    {
+      "check": "Map opens",
+      "passed": true
+    },
+    {
+      "check": "Insufficient crafting costs do not consume resources",
+      "passed": true
+    },
+    {
+      "check": "Starting cache supplies actual inventory",
+      "passed": true
+    },
+    {
+      "check": "Depleted container cannot be looted twice",
+      "passed": true
+    },
+    {
+      "check": "Harvesting yields and depletes resources",
+      "passed": true
+    },
+    {
+      "check": "Campfire crafting consumes the exact recipe",
+      "passed": true
+    },
+    {
+      "check": "Placement preview opens on clear ground",
+      "passed": true
+    },
+    {
+      "check": "A campfire is placed in the real world",
+      "passed": true
+    },
+    {
+      "check": "Outpost claims only with paid resources",
+      "passed": true
+    },
+    {
+      "check": "Rest establishes shelter spawn",
+      "passed": true
+    },
+    {
+      "check": "Spring replenishes water",
+      "passed": true
+    },
+    {
+      "check": "Remote farmhouse scavenging works through cutaway",
+      "passed": true
+    },
+    {
+      "check": "Campfire cooking converts raw food into ration",
+      "passed": true
+    },
+    {
+      "check": "Eating consumes food and restores hunger",
+      "passed": true
+    },
+    {
+      "check": "Drinking restores thirst",
+      "passed": true
+    },
+    {
+      "check": "Quarry yields iron ore",
+      "passed": true
+    },
+    {
+      "check": "Claimed workbench upgrades the sword",
+      "passed": true
+    },
+    {
+      "check": "Keep guards and warden can be defeated",
+      "passed": true
+    },
+    {
+      "check": "Guarded chest awards the signal lens",
+      "passed": true
+    },
+    {
+      "check": "Full survival progression restores the beacon",
+      "passed": true
+    },
+    {
+      "check": "Seven regions discovered by physical travel",
+      "passed": true
+    },
+    {
+      "check": "Survival journey crosses over 900 meters",
+      "passed": true
+    },
+    {
+      "check": "Progress saves atomically",
+      "passed": true
+    },
+    {
+      "check": "No stuck combat or construction state",
+      "passed": true
+    }
+  ],
+  "deaths": 0,
+  "kills": 6,
+  "passed": true,
+  "quest": 0,
+  "sword_hits": 0,
+  "travel": 1015.87457048148
+}

@@ -1,0 +1,91 @@
+{
+  "bow_hits": 0,
+  "checks": [
+    {
+      "check": "Fresh launch starts with full health and no quest",
+      "passed": true
+    },
+    {
+      "check": "Western house entered through physical doorway",
+      "passed": true
+    },
+    {
+      "check": "Roof and front walls disappear indoors",
+      "passed": true
+    },
+    {
+      "check": "NPC dialogue opens through E action",
+      "passed": true
+    },
+    {
+      "check": "Quest accepted through dialogue",
+      "passed": true
+    },
+    {
+      "check": "Western roof restores after leaving",
+      "passed": true
+    },
+    {
+      "check": "Second house is accessible and cuts away",
+      "passed": true
+    },
+    {
+      "check": "Second NPC has working dialogue",
+      "passed": true
+    },
+    {
+      "check": "Second roof restores on exit",
+      "passed": true
+    },
+    {
+      "check": "Town gate connects seamlessly to overworld",
+      "passed": true
+    },
+    {
+      "check": "Pause blocks movement",
+      "passed": true
+    },
+    {
+      "check": "Sword defeats a live enemy",
+      "passed": true
+    },
+    {
+      "check": "Bow projectiles damage and defeat enemies",
+      "passed": false
+    },
+    {
+      "check": "Enemy loot can be collected",
+      "passed": true
+    },
+    {
+      "check": "Quest object is collected after clearing guardians",
+      "passed": false
+    },
+    {
+      "check": "Quest completes and grants reward",
+      "passed": false
+    },
+    {
+      "check": "Repeated entry and exit restores all cutaway parts",
+      "passed": true
+    },
+    {
+      "check": "No stuck attack state",
+      "passed": true
+    },
+    {
+      "check": "Entire quest completed without death",
+      "passed": false
+    },
+    {
+      "check": "Physical route traversed over 120 meters",
+      "passed": true
+    }
+  ],
+  "deaths": 1,
+  "kills": 1,
+  "passed": false,
+  "quest": 1,
+  "sword_hits": 3,
+  "travel": 180.232396438718
+}

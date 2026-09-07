@@ -1,0 +1,15 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+Metal 4.0 - Forward+ - Using Device #0: Apple - Apple M4 Pro (Apple9)
+
+VERIFY PASS Completed save loads for independent exploration
+VERIFY PASS All seven building footprints are clear of tree trunks
+VERIFY PASS timber_cache is reachable and lootable
+VERIFY PASS timber_cache opens its interior
+VERIFY PASS timber_cache restores its roof after exit
+VERIFY PASS store_cache is reachable and lootable
+VERIFY PASS store_cache opens its interior
+VERIFY PASS store_cache restores its roof after exit
+VERIFY PASS tannery_cache is reachable and lootable
+VERIFY PASS tannery_cache opens its interior
+VERIFY PASS tannery_cache restores its roof after exit
+VERIFY PASS Remote buildings explored without death
