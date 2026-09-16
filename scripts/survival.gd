@@ -339,6 +339,6 @@ func load_game(path: String="") -> bool:
 		for item in nodes:
 			if item.kind=="beacon": Art.lantern(game,item.node.position+Vector3(0,1,0))
 	game.relic.visible=game.quest<2
-	game.camera.position=game.player.position+game.camera_offset
+	game.snap_camera()
 	game.toast("Journey resumed · Day "+str(day))
 	return true

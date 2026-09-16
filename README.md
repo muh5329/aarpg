@@ -31,6 +31,7 @@ To edit, open `project.godot` and press F5 in Godot. Forward+ rendering is teste
 | E / Escape while building | Place / cancel |
 | M | Full valley map |
 | Mouse wheel | Camera zoom |
+| Z / X (hold), or right-click drag | Rotate camera freely |
 | F5 | Save while exploring |
 | Escape | Close overlay/dialogue/build mode, or pause |
 

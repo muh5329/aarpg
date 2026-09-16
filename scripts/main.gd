@@ -5,7 +5,16 @@ var survival: Node
 var sun: DirectionalLight3D
 var player: CharacterBody3D
 var camera: Camera3D
-var camera_offset = Vector3(18, 21, 24)
+const CAMERA_BASE_OFFSET = Vector3(10.8, 12.6, 14.4)
+const CAMERA_LOOK_OFFSET = Vector3(0, .4, -1.5)
+const CAMERA_KEY_SPEED = 2.2 # radians per second while Z/X held
+const CAMERA_DRAG_SENSITIVITY = .006 # radians per pixel of right-drag
+var camera_offset = CAMERA_BASE_OFFSET
+var camera_zoom = 1.0
+var camera_yaw = 0.0
+var camera_yaw_target = 0.0
+var camera_focus = Vector3.ZERO
+var camera_dragging = false
 var houses: Array = []
 var trees: Array = []
 var arches: Array = []
@@ -50,12 +59,11 @@ func _ready() -> void:
 	add_child(player)
 	player.position=Vector3(0,.1,13)
 	camera=Camera3D.new()
-	camera.projection=Camera3D.PROJECTION_ORTHOGONAL
-	camera.size=18.5
-	camera.far=110
+	camera.projection=Camera3D.PROJECTION_PERSPECTIVE
+	camera.fov=45
+	camera.far=140
 	add_child(camera)
-	camera.position=player.position+camera_offset
-	camera.look_at(player.position+Vector3(0,.4,-1.5))
+	snap_camera()
 	camera.current=true
 	add_npc(Vector3(-8,0,1),"Mara","Keeper of the hearth",Color("927353"))
 	add_npc(Vector3(8,0,1),"Iven","Wayfarer & bowyer",Color("687b60"))
@@ -88,7 +96,7 @@ func _ready() -> void:
 	get_tree().auto_accept_quit=false
 
 func _setup_input() -> void:
-	var keys={"left":[KEY_A,KEY_LEFT],"right":[KEY_D,KEY_RIGHT],"up":[KEY_W,KEY_UP],"down":[KEY_S,KEY_DOWN],"interact":[KEY_E,KEY_ENTER],"sword":[KEY_J],"bow":[KEY_K],"swap":[KEY_Q],"dodge":[KEY_SPACE],"potion":[KEY_R],"pause":[KEY_ESCAPE],"journal":[KEY_TAB],"inventory":[KEY_TAB,KEY_I],"crafting":[KEY_C],"map":[KEY_M],"build":[KEY_B],"eat":[KEY_F],"drink":[KEY_G],"sprint":[KEY_SHIFT],"save":[KEY_F5],"recipe1":[KEY_1],"recipe2":[KEY_2],"recipe3":[KEY_3],"recipe4":[KEY_4],"recipe5":[KEY_5],"recipe6":[KEY_6]}
+	var keys={"left":[KEY_A,KEY_LEFT],"right":[KEY_D,KEY_RIGHT],"up":[KEY_W,KEY_UP],"down":[KEY_S,KEY_DOWN],"interact":[KEY_E,KEY_ENTER],"sword":[KEY_J],"bow":[KEY_K],"swap":[KEY_Q],"cam_left":[KEY_Z],"cam_right":[KEY_X],"dodge":[KEY_SPACE],"potion":[KEY_R],"pause":[KEY_ESCAPE],"journal":[KEY_TAB],"inventory":[KEY_TAB,KEY_I],"crafting":[KEY_C],"map":[KEY_M],"build":[KEY_B],"eat":[KEY_F],"drink":[KEY_G],"sprint":[KEY_SHIFT],"save":[KEY_F5],"recipe1":[KEY_1],"recipe2":[KEY_2],"recipe3":[KEY_3],"recipe4":[KEY_4],"recipe5":[KEY_5],"recipe6":[KEY_6]}
 	for action in keys:
 		InputMap.add_action(action)
 		for key in keys[action]:
@@ -107,8 +115,22 @@ func _unhandled_input(event: InputEvent) -> void:
 		else: paused=not paused
 	if event.is_action_pressed("interact") and not paused: interact()
 	if event is InputEventMouseButton and event.pressed:
-		if event.button_index==MOUSE_BUTTON_WHEEL_UP: camera.size=maxf(15,camera.size-1)
-		if event.button_index==MOUSE_BUTTON_WHEEL_DOWN: camera.size=minf(29,camera.size+1)
+		if event.button_index==MOUSE_BUTTON_WHEEL_UP: camera_zoom=maxf(.8,camera_zoom-.055)
+		if event.button_index==MOUSE_BUTTON_WHEEL_DOWN: camera_zoom=minf(1.55,camera_zoom+.055)
+	if event is InputEventMouseButton and event.button_index==MOUSE_BUTTON_RIGHT:
+		camera_dragging=event.pressed
+	if event is InputEventMouseMotion and camera_dragging and not paused and not dialogue_open:
+		camera_yaw_target-=event.relative.x*CAMERA_DRAG_SENSITIVITY
+
+func snap_camera() -> void:
+	camera_yaw=camera_yaw_target
+	camera_focus=player.position
+	update_camera()
+
+func update_camera() -> void:
+	camera_offset=CAMERA_BASE_OFFSET.rotated(Vector3.UP,camera_yaw)*camera_zoom
+	camera.position=camera_focus+camera_offset
+	camera.look_at(camera_focus+CAMERA_LOOK_OFFSET.rotated(Vector3.UP,camera_yaw))
 
 func _process(dt: float) -> void:
 	time+=dt
@@ -117,7 +139,11 @@ func _process(dt: float) -> void:
 	shake=maxf(0,shake-dt)
 	for flame in get_tree().get_nodes_in_group("flames"):
 		flame.scale.y=.28*(1+sin(time*13+flame.position.x*4)*.13)
-	camera.position=camera.position.lerp(player.position+camera_offset,1-exp(-dt*7))
+	camera_focus=camera_focus.lerp(player.position,1-exp(-dt*7))
+	if not paused and not dialogue_open:
+		camera_yaw_target+=Input.get_axis("cam_left","cam_right")*CAMERA_KEY_SPEED*dt
+	camera_yaw=lerpf(camera_yaw,camera_yaw_target,1-exp(-dt*10))
+	update_camera()
 	if shake>0: camera.position+=Vector3(sin(time*115),cos(time*103),sin(time*97))*shake*.14
 	for house in houses: house.update_cutaway(player.position)
 	for arch in arches:
